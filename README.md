@@ -5,10 +5,15 @@ This project provides a Debian-based Docker image with `kubectl` and `helm`
 
 Pull image using
 ```
-docker pull myousefnezhad/kubecloud:latest
+sudo docker pull myousefnezhad/kubecloud:latest
 ```
 
-Or use it in your `Dockerfile` as follows:
+Use it in your `Dockerfile` as follows:
 ```
 FROM myousefnezhad/kubecloud:latest
+```
+
+Run it with a command line:
+```
+sudo docker run -it -n kubectl  myousefnezhad/kubecloud:latest
 ```
