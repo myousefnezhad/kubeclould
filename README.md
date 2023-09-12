@@ -15,5 +15,5 @@ FROM myousefnezhad/kubecloud:latest
 
 Run it with a command line:
 ```
-sudo docker run -it -n kubectl  myousefnezhad/kubecloud:latest
+sudo docker run -it myousefnezhad/kubecloud:latest
 ```
